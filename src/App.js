@@ -4,10 +4,15 @@ import './App.css';
 import MonsterList from "./components/MonsterList"
 
 function App() {
- 
+
   return (
     <div className="App">
-      <MonsterList />
+      <div>
+        <PartyInput />
+        <ResultPreview />
+      </div>
+
+      <MonsterStatistics />
     </div>
   );
 }
